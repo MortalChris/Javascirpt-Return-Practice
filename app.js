@@ -13,8 +13,9 @@ const sum = add(number, numberTwo);
 const finalSum = mult(prompt("Enter Number here") ,sum);
 console.log(finalSum);
 
-//Different code
 
+
+//Different code
 const bill = function(products, tax){
   let total = 0;
   for(i = 0; i < products.length; i++){
@@ -22,12 +23,22 @@ const bill = function(products, tax){
 }
     return total;
 };
-
 console.log(bill([12, 8, 4], 0.2));
+
+
 
 //Different
 let people = ['Hi', 'hello', 'welcome', 'good morning']
 people.forEach((person, index) => {
   console.log(index, person);
 });
+
+
+
+//Different
+let people = ["Mario", "Luigi", "Shuan", "Ryu", "Chun-li"];
+const logPerson = (person, index) => {
+  console.log(index,"hello" , person);
+};
+people.forEach(logPerson);
 
