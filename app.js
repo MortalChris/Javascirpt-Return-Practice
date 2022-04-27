@@ -1,4 +1,4 @@
-//Should add number and numberTwo together, return it, then multiplies the sum by the number the user types.
+//Should add number and numberTwo together, return it, then multiplies the sum by the number the user types. 
 const number = 7
 const numberTwo = 6
 
