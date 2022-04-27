@@ -25,4 +25,9 @@ const bill = function(products, tax){
 
 console.log(bill([12, 8, 4], 0.2));
 
+//Different
+let people = ['Hi', 'hello', 'welcome', 'good morning']
+people.forEach((person, index) => {
+  console.log(index, person);
+});
 
