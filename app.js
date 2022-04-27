@@ -13,4 +13,16 @@ const sum = add(number, numberTwo);
 const finalSum = mult(prompt("Enter Number here") ,sum);
 console.log(finalSum);
 
+//Different code
+
+const bill = function(products, tax){
+  let total = 0;
+  for(i = 0; i < products.length; i++){
+  total += products[i] + products[i] * tax;
+}
+    return total;
+};
+
+console.log(bill([12, 8, 4], 0.2));
+
 
